@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,13 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: url('bg.jpg') no-repeat center center fixed; /* Ganti path/to/your/image.jpg dengan path gambar Anda */
+            background: url('bg3.jpg') no-repeat center center fixed;
             background-size: cover;
             color: #fff;
         }
 
         header {
-            background-color: #b3ffb3; /* Warna biru tua untuk header */
+            background-color: rgba(145, 152, 146, 0.8);
             text-align: center;
             padding: 10px;
         }
@@ -35,12 +36,12 @@
         }
 
         article ul {
-            list-style-type: disc; /* Menggunakan titik bulat */
-            margin-left: 20px; /* Memberikan indentasi pada daftar */
+            list-style-type: disc;
+            margin-left: 20px;
         }
 
         footer {
-            background-color: #b3ffb3; /* Warna biru tua untuk footer */
+            background-color: rgba(145, 152, 146, 0.8);
             color: #fff;
             text-align: center;
             padding: 10px;
@@ -54,8 +55,27 @@
             font-weight: bold;
             margin-bottom: 10px;
         }
+
+        /* Gaya baru untuk warna biru tua dan kotak */
+        h3 a {
+            color: #005eff; /* Warna biru tua */
+            text-decoration: none;
+            position: relative;
+            display: inline-block;
+        }
+
+        h3 a::before {
+            content: '';
+            position: absolute;
+            bottom: -5px; /* Sesuaikan dengan kebutuhan */
+            left: 0;
+            width: 100%;
+            height: 2px; /* Ketebalan garis bawah */
+            background-color: #003366; /* Warna biru tua */
+        }
     </style>
 </head>
+
 <body>
 
     <header>
@@ -92,7 +112,7 @@
     </script>
     </header>
     <article>
-        <h2>XENZA DIGITAL ADALAH PERUSAHAAN YANG BERGERTAK PADA BIDANG DIGITAL</h2>
+        <h2>XENZA DIGITAL ADALAH PERUSAHAAN YANG BERGERAK PADA BIDANG DIGITAL</h2>
         <ul>
             <p>Perusahaan digital merupakan entitas bisnis yang secara utama beroperasi di ranah online dan mengintegrasikan 
                 teknologi informasi dalam setiap aspek operasionalnya.</p>
@@ -101,6 +121,7 @@
                 <li>XDG TOP UP (E-Wallet, Vocher game, Pulsa) </li>
                 <li>XDG JASA (Jasa admin, Jasa CS) </li>
                 <li>XDG INVESTASI (Jasa membantu untuk memberikan produk reksadana terbaik)</li>
+        <h3><a href="saham.html">LIHAT PEMEGANG SAHAM DISINI</a></h3>
         </ul>
     </article>
     <article>
@@ -112,8 +133,8 @@
     </article>
 
     <div class="container">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeB_RoUOXaIE7v7-eV7T_2ujVwPdeSVwT0FP7mREGCMAZ9vjg/viewform?usp=sharing" class="box">Daftar Magang</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf9YVipvgT3sBQHBEa-qlnpB1Z4A4MB5UwAKATJuZd4Xx_z1g/viewform?usp=sharing" class="box">Daftar Kerja</a>
+        <a href="daftar.html" class="box">Daftar Magang</a>
+        <a href="kerja.html" class="box">Daftar Kerja</a>
     </div>
     
     <footer>
